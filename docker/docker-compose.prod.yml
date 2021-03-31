@@ -1,0 +1,9 @@
+version: '3.9'
+services:
+  php:
+    build:
+      context: ../
+      dockerfile: docker/config.prod.Dockerfile
+    ports:
+      - 3200:80
+    restart: always

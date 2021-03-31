@@ -1,0 +1,25 @@
+{
+  "name": "docker-php",
+  "version": "0.0.1",
+  "description": "🐋 A simple PHP environment with Docker for local development.",
+  "bin": {
+    "docker-php-init": "./docker/scripts/bin.cjs"
+  },
+  "scripts": {
+    "php": "node ./docker/run.cjs dev",
+    "php:up": "node ./docker/run.cjs up",
+    "php:down": "node ./docker/run.cjs down"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yandeu/docker-php.git"
+  },
+  "author": "Yannick Deubel (https://github.com/yandeu)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12"
+  },
+  "funding": {
+    "url": "https://github.com/sponsors/yandeu"
+  }
+}
