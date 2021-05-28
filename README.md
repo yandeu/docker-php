@@ -5,8 +5,8 @@
 ## Requirements
 
 - [Node.js](https://nodejs.org/en/)
-- [Docker](https://www.docker.com/get-started)
-- [docker-compose](https://docs.docker.com/compose/install/) (linux only)
+- [Docker Desktop](https://docs.docker.com/desktop/) or [Docker Engine](https://docs.docker.com/engine/)
+- [Docker Compose](https://docs.docker.com/compose/install/)
 
 ## Install
 
@@ -28,6 +28,10 @@ Will add all the necessary configurations to your npm project for running your P
 - Adds some useful scripts to your `package.json` file.
 - Adds `/src/index.php` (if it does not already exist).
 
-## Useful Links
+## Production
 
-- [How to deploy on remote Docker hosts with docker-compose](https://www.docker.com/blog/how-to-deploy-on-remote-docker-hosts-with-docker-compose/)
+- Deploy with `docker-compose`:  
+  [How to deploy on remote Docker hosts with docker-compose](https://www.docker.com/blog/how-to-deploy-on-remote-docker-hosts-with-docker-compose/)
+
+- Want to use `docker stack deploy`? (recommended)  
+  https://docs.docker.com/engine/swarm/stack-deploy/
