@@ -30,6 +30,11 @@ const getArgs = async () => {
 
 const main = async () => {
   const args = await getArgs()
+  
+  process.on('SIGINT', function () {
+    console.log('')
+    console.log('> shutdown')
+  })
 
   execCompose('docker-compose', args)
 }
