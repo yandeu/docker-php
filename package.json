@@ -1,6 +1,6 @@
 {
   "name": "docker-php",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "🐋 A simple PHP environment with Docker for local development.",
   "bin": {
     "docker-php-init": "./docker/scripts/bin.cjs"
